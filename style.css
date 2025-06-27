@@ -146,11 +146,10 @@ h1{
 .c-container {
     display: flex;
     flex-direction: row; 
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 0;
     padding: 16px;
-    margin: 32px;
+    margin: 64px;
     background-color: #3882f6;
     border-radius: 8px;
 }
@@ -162,4 +161,9 @@ h1{
 
 #c-button {
     border: solid 2px;
+}
+
+.footer{
+    text-align: center;
+    padding: 8px;
 }
