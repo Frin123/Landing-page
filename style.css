@@ -1,0 +1,93 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.header, .footer{
+    background-color: #1f2937;
+    color:#f9faf8;
+}
+
+.header{
+    padding-bottom: 32px;
+}
+
+img{
+    height: 280px;
+    width: 280px;
+}
+
+.header-container{
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.h-logo{
+    font-size: 24px;
+    font-weight: 900px;
+}
+
+.page-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 16px;
+    gap: 16px;
+}
+
+.h-page{
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+.h-page p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.h-page h1{
+    font-size: 48px;
+}
+
+.h-image{
+    float: right;
+    width: 400px;
+    height: 160px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 16px;
+    height: 28px;
+    width: 96px;
+    border-radius: 6px;
+    border: none;
+}
+
+
+.information{
+    display: flex;
+}
+
+.quote{
+    display: flex;
+}
