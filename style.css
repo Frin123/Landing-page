@@ -17,8 +17,8 @@ body{
 }
 
 img{
-    height: 280px;
-    width: 280px;
+    height: 200px;
+    width: 200px;
 }
 
 .header-container{
@@ -33,7 +33,7 @@ img{
 
 .h-logo{
     font-size: 24px;
-    font-weight: 900px;
+    font-weight: 900;
 }
 
 .page-container{
@@ -41,7 +41,6 @@ img{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 16px;
     gap: 16px;
 }
 
@@ -84,8 +83,36 @@ button{
 }
 
 
-.information{
+.i-title{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
     display: flex;
+    justify-content: center;
+    padding: 32px;
+}
+
+.i-image{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 8px;
+}
+
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+.text p{
+    text-align: center;
+}
+
+#text1,#text2,#text3,#text4{
+    box-sizing: border-box;
+    width: 205px;
 }
 
 .quote{
